@@ -3,7 +3,7 @@
 include 'src/Phois/Whois/Whois.php';
 
 if(!isset($_GET["domain"])) {
-	echo 'sample url: http://php-whois.dev/?domain=xyz.ie';
+	echo 'sample url: http://138.197.45.3/?domain=xyz.ie';
 }
 
 if(isset($_GET["domain"])) {
